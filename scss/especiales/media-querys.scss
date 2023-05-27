@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+  .container-galeria {
+    grid-template-columns: 1fr;
+  }
+  .sobre__nosotros {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 4fr 2fr !important;
+  }
+  .container__productos {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr !important;
+  }
+  .item-tienda {
+    &:nth-child(1) {
+      grid-row-start: span 1 !important;
+    }
+  }
+}

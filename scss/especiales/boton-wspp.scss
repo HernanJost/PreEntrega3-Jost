@@ -1,0 +1,19 @@
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  bottom: 40px;
+  left: 40px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 999;
+}
+i.flotante {
+  font-size: 60px;
+}
+.float:hover {
+  background-color: #28e76e;
+}

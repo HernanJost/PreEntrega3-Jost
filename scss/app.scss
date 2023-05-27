@@ -1,0 +1,21 @@
+//basics
+@import "../scss/basics/reset.scss";
+@import "../scss/basics/variables.scss";
+@import "../scss/basics/generales.scss";
+
+//layout
+@import "../scss/layout/header.scss";
+@import "../scss/layout/main.scss";
+@import "../scss/layout/footer.scss";
+
+//pages
+@import "../scss/pages/inicio.scss";
+@import "../scss/pages/tienda.scss";
+@import "../scss/pages/mis-trabajos.scss";
+@import "../scss/pages/nosotros.scss";
+@import "../scss/pages/contacto.scss";
+
+//especiales
+@import "../scss/especiales/boton-principal.scss";
+@import "../scss/especiales/boton-wspp.scss";
+@import "../scss/especiales/media-querys.scss";

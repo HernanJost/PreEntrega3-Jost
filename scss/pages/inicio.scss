@@ -1,0 +1,57 @@
+img.banner {
+  width: 100%;
+}
+#tienda {
+  a {
+    color: white;
+    &:hover {
+      color: black;
+    }
+  }
+  .img-fluid.img-tienda {
+    height: 80%;
+  }
+}
+#servicios {
+  a {
+    color: white;
+    &:hover {
+      color: black;
+    }
+  }
+  div {
+    .servicios1 {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-left: 20px;
+    }
+    .servicios2 {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+    }
+    .img-servicios {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 50%;
+      }
+    }
+  }
+}
+#newsletter {
+  div {
+    button:hover {
+      background-color: #fe8ab3;
+    }
+    input {
+      border: 2px solid #fe8ab3;
+      &::placeholder {
+        color: #fe8ab3;
+      }
+    }
+  }
+}

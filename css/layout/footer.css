@@ -1,0 +1,11 @@
+footer {
+  background-color: #fefacb;
+}
+footer .footer__icono {
+  height: 140px;
+}
+footer a:hover {
+  color: #fe8ab3;
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,11 @@
+header {
+  background-color: #fefacb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header .header__icono {
+  height: 120px;
+}
+
+/*# sourceMappingURL=header.css.map */

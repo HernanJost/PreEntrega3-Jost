@@ -1,0 +1,52 @@
+img.banner {
+  width: 100%;
+}
+
+#tienda a {
+  color: white;
+}
+#tienda a:hover {
+  color: black;
+}
+#tienda .img-fluid.img-tienda {
+  height: 80%;
+}
+
+#servicios a {
+  color: white;
+}
+#servicios a:hover {
+  color: black;
+}
+#servicios div .servicios1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+#servicios div .servicios2 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+#servicios div .img-servicios {
+  display: flex;
+  justify-content: center;
+}
+#servicios div .img-servicios img {
+  width: 50%;
+}
+
+#newsletter div button:hover {
+  background-color: #fe8ab3;
+}
+#newsletter div input {
+  border: 2px solid #fe8ab3;
+}
+#newsletter div input::placeholder {
+  color: #fe8ab3;
+}
+
+/*# sourceMappingURL=inicio.css.map */

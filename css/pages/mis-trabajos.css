@@ -1,0 +1,24 @@
+.container-galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 450px;
+  padding: 20px;
+  grid-gap: 10px;
+}
+.container-galeria .item-galeria {
+  position: relative;
+}
+.container-galeria .galeria__titulo {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));
+  margin: 0;
+}
+.container-galeria .galeria__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=mis-trabajos.css.map */
