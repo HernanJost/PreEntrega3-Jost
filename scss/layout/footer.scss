@@ -1,9 +1,9 @@
 footer {
-  background-color: #fefacb;
+  background-color: $color-primario;
   .footer__icono {
     height: 140px;
   }
   a:hover {
-    color: #fe8ab3;
+    color: $color-secundario;
   }
 }

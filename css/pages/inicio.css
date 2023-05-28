@@ -1,52 +1,17 @@
-img.banner {
-  width: 100%;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 48 |       background-color: $color-secundario;
+ *    |                         ^^^^^^^^^^^^^^^^^
+ *    '
+ *   scss\pages\inicio.scss 48:25  root stylesheet */
 
-#tienda a {
-  color: white;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 48 \2502        background-color: $color-secundario;\d\a    \2502                          ^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\pages\\inicio.scss 48:25  root stylesheet";
 }
-#tienda a:hover {
-  color: black;
-}
-#tienda .img-fluid.img-tienda {
-  height: 80%;
-}
-
-#servicios a {
-  color: white;
-}
-#servicios a:hover {
-  color: black;
-}
-#servicios div .servicios1 {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-left: 20px;
-}
-#servicios div .servicios2 {
-  width: 40%;
-  display: flex;
-  justify-content: center;
-}
-#servicios div .img-servicios {
-  display: flex;
-  justify-content: center;
-}
-#servicios div .img-servicios img {
-  width: 50%;
-}
-
-#newsletter div button:hover {
-  background-color: #fe8ab3;
-}
-#newsletter div input {
-  border: 2px solid #fe8ab3;
-}
-#newsletter div input::placeholder {
-  color: #fe8ab3;
-}
-
-/*# sourceMappingURL=inicio.css.map */
