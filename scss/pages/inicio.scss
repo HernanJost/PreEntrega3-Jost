@@ -36,6 +36,7 @@ img.banner {
     .img-servicios {
       display: flex;
       justify-content: center;
+      object-fit: cover;
       img {
         width: 50%;
       }
