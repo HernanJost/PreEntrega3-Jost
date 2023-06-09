@@ -2,6 +2,9 @@ img.banner {
   width: 100%;
 }
 #tienda {
+  h3 {
+    font-size: 40px;
+  }
   a {
     color: white;
     &:hover {
@@ -13,7 +16,11 @@ img.banner {
   }
 }
 #servicios {
+  h3 {
+    font-size: 40px;
+  }
   a {
+    padding: 16px;
     color: white;
     &:hover {
       color: black;

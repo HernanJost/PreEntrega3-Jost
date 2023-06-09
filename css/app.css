@@ -56,6 +56,9 @@ img.banner {
   width: 100%;
 }
 
+#tienda h3 {
+  font-size: 40px;
+}
 #tienda a {
   color: white;
 }
@@ -66,7 +69,11 @@ img.banner {
   height: 80%;
 }
 
+#servicios h3 {
+  font-size: 40px;
+}
 #servicios a {
+  padding: 16px;
   color: white;
 }
 #servicios a:hover {
@@ -88,6 +95,7 @@ img.banner {
 #servicios div .img-servicios {
   display: flex;
   justify-content: center;
+  object-fit: cover;
 }
 #servicios div .img-servicios img {
   width: 50%;
@@ -106,7 +114,7 @@ img.banner {
 .container__productos {
   display: grid;
   grid-template-columns: repeat(4, 3fr);
-  grid-template-rows: repeat(4, 3fr);
+  grid-template-rows: repeat(5, 3fr);
   grid-auto-rows: 350px;
   padding: 20px;
   grid-gap: 10px;
